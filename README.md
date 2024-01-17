@@ -5,8 +5,9 @@
 
 ## Registration Page
 
-![Registration Page](registration.PNG)
+![registration](https://github.com/TJH2/Basic_Registration_Page/assets/82971033/ac0f6242-151d-4ac2-8bc8-88938cce3549)
+
 
 ## Log In Page
 
-![Log In Page](Log_In.PNG)
+![login](https://github.com/TJH2/Basic_Registration_Page/assets/82971033/40c1fdb2-0fc9-4ea7-858a-1f177f55d554)
