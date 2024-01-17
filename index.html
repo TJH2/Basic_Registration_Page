@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Page</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Registration Page</h1>
+        </header>
+        <main>
+            <p>(Insert Generic Greeting Text Here)</p>
+            <form method="post" action="">
+
+                <p id="or"><u>Register</u> | <a href="login.html">Log In</a></p>
+
+                <fieldset>
+
+                    <label for="first-name">Enter Your First Name:</label>
+                    <input id="first-name" name="first-name" type="text" required />
+
+                    <label for="last-name">Enter Your Last Name:</label>
+                    <input id="last-name" name="last-name" type="text" required />
+
+                    <label for="email">Enter Your Email:</label>
+                    <input id="email" name="email" type="email" required />
+
+                    <label for="username">Create Username:</label>
+                    <input id="username" name="username" type="text" required />
+
+                    <label for="password">Create Password:</label>
+                    <input id="password" name="password" type="password" pattern="(?=.*[0-9])(?=.*[#$@!%&*?])[A-Za-z0-9#$@!%&*?]{8,}" title="8 Character Minimum. Must Include At Least 1 Number & Special Character (#$@!%&*?)." required />
+
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input id="confirm-password" name="confirm-password" type="password" required />
+
+                </fieldset>
+
+                <label for="terms-and-conditions" class="inline_block">I accept the <a href="#">terms and conditions</a>
+                </label>
+                <input id="terms-and-conditions" class="inline" type="checkbox" required name="terms-and-conditions" />
+
+                <button value="Submit">Register</button>
+            </form>
+            <script></script>
+        </main>
+        <footer></footer>
+    </body>
+</html>

@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #3bab4f;
+    font-family: Tahoma;
+    font-size: 16px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    margin: 2em auto;
+    text-align: center;
+  }
+
+  form {
+    margin: 0 auto 2em auto;
+    min-width: 300px;
+    max-width: 500px;
+    width: 60vw;
+    padding: 0 2em 2em 2em;
+    border: 3px solid #3b3b4f;
+    border-radius: 6px;
+    box-shadow: 0 0 25px 0 #32CD32;
+  }
+
+  a {
+    color: #32CD32;
+  }
+
+  fieldset {
+    padding: 2rem 0 0 0;
+    border: none;
+  }
+
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  input {
+    width: 100%;
+    min-height: 2em;
+    padding: 0px 5px;
+    background-color: #0a0a23;
+    border: 2px solid #3b3b4f;
+    color: #3b6b4f;
+  }
+
+  button {
+    display: block;
+    min-width: 300px;
+    width: 100%;
+    height: 2em;
+    margin: 1em auto;
+    color: #3b3b4f;
+    font-size: 1.1rem;
+    background-color: #3bcb4f;
+    border: 2px solid #3b3b4f;
+  }
+
+  button:hover {
+    background-color: #3b3b4f;
+    border-color: #3bcb4f;
+    color: #3bcb4f;
+  }
+
+  button:active {
+    color: #3b3b4f;
+    background-color: #3bcb4f;
+    border-color: #3b3b4f;
+  }
+
+  .inline {
+    width: unset; /* Removes input styling */
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+
+  .inline_block {
+    display: inline-block;
+  }
+
+  #or {
+    margin: 2em auto 0 auto;
+    text-align: center;
+  }
+
+  #or a {
+    text-decoration: none;
+    color: #32CD32;
+  }
